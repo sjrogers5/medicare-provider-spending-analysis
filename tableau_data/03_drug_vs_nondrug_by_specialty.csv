@@ -1,0 +1,15 @@
+provider_specialty,is_drug,unique_providers,total_paid,pct_of_specialty_spend
+Family Practice,Drug,35093,456030542,10.45
+Family Practice,Non-Drug,78505,3905917930,89.55
+Hematology-Oncology,Drug,2851,1797682736,64.22
+Hematology-Oncology,Non-Drug,8672,1001591418,35.78
+Internal Medicine,Drug,26445,579042307,8.45
+Internal Medicine,Non-Drug,88681,6277343625,91.55
+Medical Oncology,Drug,928,546692643,63.99
+Medical Oncology,Non-Drug,3631,307585624,36.01
+Ophthalmology,Drug,4098,3839730264,52.99
+Ophthalmology,Non-Drug,17000,3406318585,47.01
+Radiation Oncology,Drug,277,8657095,0.66
+Radiation Oncology,Non-Drug,4828,1308750252,99.34
+Rheumatology,Drug,2732,1408251171,77.80
+Rheumatology,Non-Drug,4906,401789119,22.20

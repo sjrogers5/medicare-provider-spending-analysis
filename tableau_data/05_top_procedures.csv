@@ -1,0 +1,21 @@
+procedure_code,procedure_description,is_drug,unique_providers,total_services,total_paid,avg_paid_per_service
+99214,Office visit 30-39 minutes,Non-Drug,479505,99336985,8231995685,82.87
+99213,Office visit 20-29 minutes,Non-Drug,457138,70163894,4123015208,58.76
+J0178,Aflibercept (Eylea) injection 1mg,Drug,3193,3421435,2350558554,687.01
+99232,Subsequent hospital care moderate,Non-Drug,177380,34797543,2143369921,61.60
+99233,Subsequent hospital care longer,Non-Drug,128815,21652123,2026932450,93.61
+99215,Office visit 40-54 minutes,Non-Drug,145525,11126713,1340802620,120.50
+99204,New patient office visit 45-59 min,Non-Drug,227063,11396179,1280903852,112.40
+99223,Initial hospital care,Non-Drug,139579,9474003,1266499374,133.68
+99285,Emergency department visit high complexity,Non-Drug,61345,8497101,1163810118,136.97
+J9271,Pembrolizumab (Keytruda) 1mg,Drug,1841,27083045,1154350197,42.62
+97110,Therapeutic exercise 15 minutes,Non-Drug,79997,63753552,1150859342,18.05
+G0439,Annual wellness visit subsequent,Non-Drug,105852,9739283,1145161241,117.58
+J2777,Faricimab (Vabysmo) 0.1mg,Drug,2036,33436399,966562246,28.91
+99309,Subsequent nursing facility care,Non-Drug,28091,12273087,924351602,75.32
+97530,Therapy functional activities,Non-Drug,62716,36069479,911620535,25.27
+99291,Critical care first 30-74 minutes,Non-Drug,71287,5325958,902770789,169.50
+J0897,Denosumab injection 1mg,Drug,10057,48034893,875043253,18.22
+Q4262,Wound care membrane per sq cm,Drug,141,900953,834254090,925.97
+92014,Established patient eye exam,Non-Drug,35415,9315489,782563365,84.01
+97112,Neuromuscular reeducation 15 min,Non-Drug,61939,29111650,630148816,21.65

@@ -1,0 +1,11 @@
+metric,value,formatted
+Total Rows,9660551,"9.66M"
+Unique Providers,1175260,"1.18M"
+Unique Procedures,6405,"6,405"
+Total Medicare Spend,93720000000,"$93.72B"
+Individual Physician Spend,73412447116,"$73.4B"
+Organization Spend,20308237938,"$20.3B"
+Office Setting Spend,65176465919,"$65.2B"
+Facility Setting Spend,28544219135,"$28.5B"
+Top 1pct Spend,17860000000,"$17.86B"
+Top 1pct Share,24.33,"24.33%"

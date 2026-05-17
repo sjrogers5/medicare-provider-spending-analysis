@@ -1,0 +1,21 @@
+provider_specialty,unique_providers,total_paid,pct_of_total
+Clinical Laboratory,3103,7365997003,7.86
+Ophthalmology,17001,7246048849,7.73
+Internal Medicine,88700,6856385932,7.32
+Nurse Practitioner,174677,5693291796,6.07
+Ambulance Service Provider,9332,4368020105,4.66
+Family Practice,78513,4361948473,4.65
+Ambulatory Surgical Center,5353,4298258798,4.59
+Diagnostic Radiology,31552,3588171849,3.83
+Cardiology,19399,3485495792,3.72
+Physical Therapist in Private Practice,73457,3310404027,3.53
+Hematology-Oncology,8676,2799274155,2.99
+Dermatology,12160,2728498288,2.91
+Physician Assistant,94996,2340701429,2.50
+Orthopedic Surgery,20699,2116115611,2.26
+Emergency Medicine,47234,1886945102,2.01
+Rheumatology,4906,1810040290,1.93
+Podiatry,15193,1549738042,1.65
+Mass Immunizer Roster Biller,28317,1495738695,1.60
+Radiation Oncology,4828,1317407348,1.41
+Nephrology,9172,1272839888,1.36

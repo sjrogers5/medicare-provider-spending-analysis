@@ -1,0 +1,11 @@
+provider_specialty,unique_providers,total_paid,avg_paid_per_provider,pct_of_physician_spend
+Ophthalmology,17001,7246048849,426213,9.87
+Rheumatology,4906,1810040290,368944,2.47
+Hematology-Oncology,8676,2799274155,322646,3.81
+Nuclear Medicine,511,154798820,302933,0.21
+Radiation Oncology,4828,1317407348,272868,1.79
+Medical Oncology,3632,854278267,235209,1.16
+Dermatology,12160,2728498288,224383,3.72
+Clinical Cardiac Electrophysiology,2458,500270323,203527,0.68
+Interventional Cardiology,4410,834118083,189142,1.14
+Interventional Pain Management,1478,276436372,187034,0.38
