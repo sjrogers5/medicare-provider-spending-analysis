@@ -12,3 +12,17 @@ SELECT
 FROM providers_clean
 GROUP BY place_of_service_label
 ORDER BY total_paid DESC;
+
+/*
+RESULTS:
+place_of_service_label | unique_providers | total_paid       | pct_of_total
+-----------------------|------------------|------------------|-------------
+Office                 | 826,413          | $65,176,465,919  | 69.54%
+Facility               | 584,842          | $28,544,219,135  | 30.46%
+
+Key insight: Nearly 70% of Medicare Part B spend happens in physician offices,
+not hospitals. Part B was designed for outpatient physician services — this split
+reflects that. Important caveat: facility-setting amounts here show ONLY the
+physician fee. Medicare pays hospitals separately, and that payment is not in
+this dataset. Never compare office vs. facility dollar amounts directly.
+*/

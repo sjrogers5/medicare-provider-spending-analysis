@@ -43,3 +43,16 @@ SELECT
 FROM ranked
 GROUP BY 1
 ORDER BY 1 DESC;
+
+/*
+RESULTS:
+provider_group | provider_count | total_paid       | pct_of_total_spend | avg_paid_per_provider
+---------------|----------------|------------------|--------------------|----------------------
+Top 1%         | 11,753         | $30,146,192,783  | 32.17%             | $2,564,979
+Bottom 99%     | 1,163,507      | $63,574,492,271  | 67.83%             | $54,640
+
+Key insight: The top 1% of providers bill at 47x the rate of the average provider
+in the bottom 99%. This level of concentration is a primary focus of Medicare
+payment integrity programs — audits and investigations are prioritized toward
+high-volume, high-spend outliers.
+*/

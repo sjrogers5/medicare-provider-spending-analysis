@@ -15,3 +15,17 @@ FROM providers_clean
 WHERE provider_type_code = 'I'
 GROUP BY is_drug
 ORDER BY total_paid DESC;
+
+/*
+RESULTS (individual physicians only):
+is_drug | unique_providers | total_paid       | pct_of_total | total_services    | avg_paid_per_provider
+--------|------------------|------------------|--------------|-------------------|-----------------------
+false   | 1,113,310        | $61,277,258,198  | 83.47%       | 1,114,685,457     | $55,041
+true    | 180,776          | $12,135,188,918  | 16.53%       | 870,622,727       | $67,128
+
+Key insight: Drug billing represents 16.5% of total individual physician Medicare
+spend but is concentrated in a small subset of providers (180K out of 1.1M).
+Providers who DO bill drugs average slightly more per provider ($67K vs $55K)
+because drug-administering specialties are inherently high-billing.
+The real story is in the specialty-level breakdown (see query 03 in dashboard).
+*/

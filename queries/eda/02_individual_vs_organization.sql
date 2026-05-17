@@ -17,3 +17,17 @@ SELECT
 FROM providers_clean
 GROUP BY entity_type
 ORDER BY total_paid DESC;
+
+/*
+RESULTS:
+entity_type              | unique_providers | total_paid       | avg_paid_per_provider | pct_of_total_spend
+-------------------------|------------------|------------------|-----------------------|-------------------
+Individual Physician     | 1,113,396        | $73,412,447,116  | $65,936               | 78.33%
+Organization / Facility  | 61,864           | $20,308,237,938  | $328,272              | 21.67%
+
+Key insight: Organizations are only 5% of provider entities but average 5x more
+spend per entity than individual physicians ($328K vs $66K). This is driven by
+high-volume facilities — commercial labs, ambulance companies, surgical centers —
+not because organizations bill higher rates per service. Always filter by
+provider_type_code when doing physician-specific analysis.
+*/

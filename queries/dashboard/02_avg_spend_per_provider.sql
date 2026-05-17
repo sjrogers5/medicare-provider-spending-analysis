@@ -31,3 +31,24 @@ GROUP BY provider_specialty
 HAVING COUNT(DISTINCT provider_id) >= 500
 ORDER BY avg_paid_per_provider DESC
 LIMIT 10;
+
+/*
+RESULTS (top 10 individual physicians, >= 500 providers, sorted by avg):
+provider_specialty                  | unique_providers | avg_paid_per_provider | total_paid      | pct_of_physician_spend
+------------------------------------|------------------|-----------------------|-----------------|------------------------
+Ophthalmology                       | 17,001           | $426,213              | $7,246,048,849  | 9.87%
+Rheumatology                        | 4,906            | $368,944              | $1,810,040,290  | 2.47%
+Hematology-Oncology                 | 8,676            | $322,646              | $2,799,274,155  | 3.81%
+Nuclear Medicine                    | 511              | $302,933              | $154,798,820    | 0.21%
+Radiation Oncology                  | 4,828            | $272,868              | $1,317,407,348  | 1.79%
+Medical Oncology                    | 3,632            | $235,209              | $854,278,267    | 1.16%
+Dermatology                         | 12,160           | $224,383              | $2,728,498,288  | 3.72%
+Clinical Cardiac Electrophysiology  | 2,458            | $203,527              | $500,270,323    | 0.68%
+Interventional Cardiology           | 4,410            | $189,142              | $834,118,083    | 1.14%
+Interventional Pain Management      | 1,478            | $187,034              | $276,436,372    | 0.38%
+
+Note: The HAVING >= 500 filter removes noise specialties with tiny provider counts
+(e.g. "Portable X-Ray Supplier" with 3 providers averaged $371K — not meaningful).
+Ophthalmology leads due to anti-VEGF drug injections (Eylea, Vabysmo) billed under Part B.
+Radiation Oncology is the outlier: high billing driven by equipment/technology, not drugs.
+*/
